@@ -1,0 +1,62 @@
+1550129501935	geckodriver	INFO	geckodriver 0.18.0
+1550129502116	geckodriver	INFO	Listening on 127.0.0.1:29226
+1550129508188	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1549038902075	Marionette	INFO	Listening on port 61923
+1549038902434	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549038902470	Marionette	DEBUG	[6442450945] Frame script loaded
+1549038902476	Marionette	DEBUG	[6442450945] Frame script registered
+1549038902501	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1549038906057	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1549038907124	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.yahoo.com/
+1549038908627	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450971
+1549038908632	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1549038913424	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451019
+1549038913424	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451021
+1549038913425	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451023
+1549038913425	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451025
+1549038916291	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.yahoo.com/
+1549038916534	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.yahoo.com/
+1549038917078	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.yahoo.com/
+1549038917082	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.yahoo.com/
+1549038917223	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1549038917223	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450989
+1549038917223	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+1549038917223	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1549038917223	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1549038917224	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1549038917224	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450986
+1549038917225	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
+1549038917225	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1549038917225	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1549038917226	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1549038917226	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1549038917226	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450996
+1549038917226	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450997
+1549038917226	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450998
+1549038917226	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450999
+1549038917227	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451000
+1549038917228	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451001
+1549038917228	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451002
+1549038917228	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450977
+1549038917228	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450975
+1549038917228	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450969
+1549038917229	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451003
+1549038917229	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450981
+1549038917229	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1549038917229	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1549038917229	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450965
+1549038917229	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1549038917229	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1549038917978	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://search.yahoo.com/search?p=software+testing&fr=yfp-t&fp=1&toggle=1&cop=mss&ei=UTF-8
+1549038918458	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://search.yahoo.com/search?p=software+testing&fr=yfp-t&fp=1&toggle=1&cop=mss&ei=UTF-8
+[Parent 22656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 22656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1549038938775	Marionette	INFO	Stopped listening on port 61923
+[GPU 17264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Tomer\.PyCharmCE2018.3\.idea\.PyCharmCE2018.3.iml" timestamp="1548496857631" />
+    <file path="C:\Users\Tomer\.PyCharmCE2018.3\.idea\encodings.xml" timestamp="1548496837634" />
+    <file path="C:\Users\Tomer\.PyCharmCE2018.3\.idea\misc.xml" timestamp="1548496837545" />
+    <file path="C:\Users\Tomer\.PyCharmCE2018.3\.idea\modules.xml" timestamp="1548496837711" />
+    <file path="C:\Users\Tomer\.PyCharmCE2018.3\.idea\workspace.xml" timestamp="1548519740566" />
+  </project-files>
+</conversion>
+

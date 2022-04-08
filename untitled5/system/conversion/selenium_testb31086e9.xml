@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Tomer\PycharmProjects\selenium_test\.idea\misc.xml" timestamp="1547673941747" />
+    <file path="C:\Users\Tomer\PycharmProjects\selenium_test\.idea\modules.xml" timestamp="1547673769048" />
+    <file path="C:\Users\Tomer\PycharmProjects\selenium_test\.idea\selenium_test.iml" timestamp="1547673941145" />
+    <file path="C:\Users\Tomer\PycharmProjects\selenium_test\.idea\workspace.xml" timestamp="1547810453833" />
+  </project-files>
+</conversion>
+

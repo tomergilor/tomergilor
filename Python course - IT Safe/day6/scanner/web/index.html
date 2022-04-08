@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scanner</title>
+	<link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+    <script type="text/javascript" src="/eel.js"></script>
+</head>
+<body> <!--=oncontextmenu="return false" onselectstart="return false" ondragstart="return false">-->
+
+    <aside class="sidebar pos-absolute z-2" data-role="sidebar" data-toggle="#sidebar-toggle-3" id="sb3" data-shift=".shifted-content">
+        <div class="sidebar-header" data-image="images/sb-bg-1.jpg">
+            <div class="avatar">
+                <img src="images/logo.jpg">
+            </div>
+            <span class="title fg-white">ITsafe Network Scanner</span>
+            <span class="subtitle fg-white"> 2019 © Roman Zaikin</span>
+        </div>
+        <ul class="sidebar-menu">
+            <li id="btnHome"><a><span class="mif-home icon"></span>Home</a></li>
+            <li id="btnResult"><a><span class="mif-table icon"></span>Result</a></li>
+            <li class="divider"></li>
+            <li id="btnExit"><a><span class="mif-exit icon"></span>Exit</a></li>
+        </ul>
+    </aside>
+
+    <div class="shifted-content h-100 p-ab">
+        <div class="app-bar pos-absolute bg-blue z-1" data-role="appbar">
+            <button class="app-bar-item c-pointer" id="sidebar-toggle-3">
+                <span class="mif-menu fg-white"></span>
+            </button>
+
+            <h3 style="color:white;">Advance IP Scanner</h3>
+        </div>
+    </div>
+
+    <div class="container z-1">
+
+        <div class="h-100 p-4">
+            <section id="sectionHome">
+                <div class="grid">
+                    <div class="row">
+                        <div class="cell-8 offset-1">
+                            <input id="netowrkId"
+                                   type="text"
+                                   data-role="materialinput"
+                                   data-icon="<span class='mif-laptop'>"
+                                   data-label="Enter your network IP address"
+                                   data-informer="Look at ipconfig"
+                                   placeholder="Enter IP address to scan for example: 10.0.0.0">
+                        </div>
+                        <div class="cell-2">
+                            <button class="button drop-shadow" onclick="start_scan();">Scan</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sectionResult" style="display: none;">
+                <h5 class="text-light">Scan Result</h5>
+                <hr/>
+                <ul data-role="treeview" id="resultView">
+                </ul>
+
+            </section>
+        </div>
+
+    </div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+    <script>
+        var progress = null;
+
+        async function start_scan() {
+            taskStart();
+            let value = await eel.start_scan($("#netowrkId").val())();
+            for (item of value){
+                $("#resultView").append(`<li>${item}</li>`);
+            }
+            taskEnd();
+        }
+
+        function taskStart(){
+            progress = Metro.activity.open({
+                type: 'square',
+                overlayColor: '#fff',
+                overlayAlpha: 1,
+                text: '<div class=\'mt-2 text-small\'>Please, wait...</div>',
+                overlayClickClose: true
+            });
+        }
+
+        eel.expose(taskEnd);
+        function taskEnd() {
+            Metro.activity.close(progress);
+        }
+
+        $("#btnHome").on("click",function () {
+            $("#sectionResult").fadeOut('500');
+            $("#sectionHome").delay(250).fadeIn('500');
+        });
+
+        $("#btnResult").on("click",function () {
+            $("#sectionHome").fadeOut('500');
+            $("#sectionResult").delay(500).fadeIn('500');
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Tomer\PycharmProjects\udemy selenium python code\SeleniumWD2Tutorial\.idea\SeleniumWD2Tutorial.iml" timestamp="1548519751009" />
+    <file path="C:\Users\Tomer\PycharmProjects\udemy selenium python code\SeleniumWD2Tutorial\.idea\dictionaries\atomar.xml" timestamp="1466271516000" />
+    <file path="C:\Users\Tomer\PycharmProjects\udemy selenium python code\SeleniumWD2Tutorial\.idea\encodings.xml" timestamp="1462741770000" />
+    <file path="C:\Users\Tomer\PycharmProjects\udemy selenium python code\SeleniumWD2Tutorial\.idea\misc.xml" timestamp="1548519751167" />
+    <file path="C:\Users\Tomer\PycharmProjects\udemy selenium python code\SeleniumWD2Tutorial\.idea\modules.xml" timestamp="1468870256000" />
+    <file path="C:\Users\Tomer\PycharmProjects\udemy selenium python code\SeleniumWD2Tutorial\.idea\workspace.xml" timestamp="1548519860307" />
+  </project-files>
+</conversion>
+

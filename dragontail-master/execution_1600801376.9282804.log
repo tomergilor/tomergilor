@@ -1,0 +1,8 @@
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56741/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:56741
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56741 "POST /session HTTP/1.1" 500 1006
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56754/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:56754
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56754 "POST /session HTTP/1.1" 500 1006
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request

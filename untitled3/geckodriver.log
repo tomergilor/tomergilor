@@ -1,0 +1,32 @@
+1511690282085	geckodriver	INFO	geckodriver 0.19.1
+1511690282094	geckodriver	INFO	Listening on 127.0.0.1:52506
+1511690284161	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\TomerG\\AppData\\Local\\Temp\\rust_mozprofile.pQC86CQgXCCi"
+1511690284580	Marionette	INFO	Enabled via --marionette
+1511690285945	Marionette	INFO	Listening on port 52513
+1511690286174	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511690286278	Marionette	DEBUG	Register listener.js for window 4294967297
+1511690286310	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511690286743	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511690288836	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://shop.thetestingworld.com/"
+1511690289837	Marionette	DEBUG	Received DOM event "pageshow" for "http://shop.thetestingworld.com/"
+Unable to read VR Path Registry from C:\Users\TomerG\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 17536, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17536, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\TomerG\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\TomerG\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17536, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ld.com/index.php?route=product/search&search=iphone"
+1511690152551	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://shop.thetestingworld.com/index.php?route=checkout/checkout"
+1511690152576	Marionette	DEBUG	Received DOM event "pageshow" for "http://shop.thetestingworld.com/index.php?route=checkout/checkout"
+1511690154815	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1511690155063	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1511690159373	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\TomerG\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6340, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+ARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

@@ -1,0 +1,89 @@
+Automation
+
+from time import sleep
+
+import slash
+from slash import g
+from slash_step import STEP
+
+from tests import platforms
+from tests.QA.common_functions.agent import is_asset_file_in_agent, is_hash_in_agent_asset_file
+from tests.QA.common_functions.management import change_management_options, get_latest_asset_file_path, \
+    is_hash_in_mgmt_asset_file, wait_for_asset, get_default_policy_id
+
+
+def browser_exclusion_changes(os_handle, list_id, list_name):
+
+    with STEP('Browsers'):
+
+        with STEP("Add a new 'Browsers' exclusion, and connect the list to the agent's policy"):
+            exclusion = g.manager.create_browser_exclusion(exclusion_list_name=list_name, browser='ie')
+            exclusion_id = exclusion[0].get('id')
+
+            with STEP("Validate exclusion added to mgmt"):
+                exclusions = g.manager.get_browser_exclusions_list(exclusion_list_name=list_name)
+                assert exclusions[list_id][0].get(
+                    'id') == exclusion_id, "Created exclusion doesn't appears in mgmt"
+
+            with STEP("Validate exclusion in asset file on mgmt"):
+                sleep(20)  # time to create asset file
+                asset_id = get_latest_asset_file_path(g.manager.os_handle)
+                str_to_search = 'ie'
+                assert is_hash_in_mgmt_asset_file(g.manager.os_handle, str_to_search,
+                                                  asset_id), 'Added exclusion doesnt appear in latest assetfile on mgmt'
+
+            with STEP('Verify agent got the new list with the correct exclusions'):
+                sleep(20)  # time to create asset file
+                assert is_asset_file_in_agent(os_handle, asset_id), 'Asset file {} not found in agent'.format(asset_id)
+                err_msg = 'Added exclusion {excl} doesnt appears in latest asset file {asset} on agent'. \
+                    format(excl=str_to_search, asset=asset_id)
+                assert is_hash_in_agent_asset_file(os_handle, str_to_search, asset_id), err_msg
+
+        with STEP('Remove exclusion'):
+            assert g.manager.delete_all_browser_exclusions(), 'There are not deleted browser exclusions'
+
+
+@slash.requires(platforms(['windows']))
+def test_browser_exclusion_changes(agent_machine):
+
+    os_handle = agent_machine.os_handle
+    list_id = None
+    list_name = 'test_list'
+
+    with STEP('Preparations'):
+        change_management_options(auto_mitigation_action='mitigation.quarantineThreat', mitigation_mode='protect',
+                                  mitigation_mode_suspicious='detect', agent_notification=True)
+        with STEP('Create new exclusion list and connect it to default policy'):
+            default_policy_id = g.manager.get_policies()[0]['id']
+            g.manager.create_exclusion_list(name=list_name, policies=[default_policy_id])
+
+        with STEP('Validate exclusion list created in mgmt'):
+            exclusion_lists = g.manager.get_list_of_exclusion_lists()
+            is_list_created = False
+            for exclusion_list in exclusion_lists:
+                if exclusion_list.get('name') == list_name:
+                    is_list_created = True
+                    list_id = exclusion_list.get('id')
+            assert is_list_created, "List {} doesn't appears in mgmt".format(list_name)
+
+    with STEP('Update policy with created Exclusion_list'):
+        g.manager.update_policy(get_default_policy_id(), exclusion_list_id=list_id)
+
+    with STEP('Running test with created exclusion_list {}'.format(list_id)):
+        browser_exclusion_changes(os_handle, list_id, list_name)
+
+    with STEP('Delete created exlusion list'):
+        g.manager.delete_exclusion_list(list_id)
+        with STEP('Validate exclusion list was deleted'):
+            is_found = False
+            excl_lists = g.manager.get_list_of_exclusion_lists()
+            for exc_list in excl_lists:
+                if exc_list['id'] == list_id:
+                    is_found = True
+            assert not is_found, 'Exclusion list was not deleted from mgmt'
+        wait_for_asset()
+
+    with STEP('Running test with global exclusion list'):
+        list_id = g.manager.get_list_of_exclusion_lists()[0].get('id')
+        browser_exclusion_changes(os_handle, list_id, 'Global')
+		

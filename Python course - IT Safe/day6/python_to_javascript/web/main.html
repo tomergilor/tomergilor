@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Program</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+    <script type="text/javascript" src="/eel.js"></script>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+
+    <div class="container">
+        <button class="button light drop-shadow ">click me</button>
+    </div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+    <script>
+        var progress = null;
+        eel.expose(js_start_loading);
+        function js_start_loading() {
+                progress = Metro.activity.open({
+                    type: 'square',
+                    overlayColor: '#fff',
+                    overlayAlpha: 1,
+                    text: '<div class=\'mt-2 text-small\'>Please, wait...</div>'
+                });
+        }
+
+        eel.expose(js_stop_loading);
+        function js_stop_loading() {
+            Metro.activity.close(progress);
+        }
+
+        eel.expose(get_ready);
+        function get_ready(){
+            $(document).ready(function(){
+                return true;
+            });
+        }
+
+    </script>
+</body>
+</html>

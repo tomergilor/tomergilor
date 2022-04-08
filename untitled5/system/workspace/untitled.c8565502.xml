@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FUSProjectUsageTrigger">
+    <session id="1664026145">
+      <usages-collector id="statistics.lifecycle.project">
+        <usage id="project.opened" value="1" />
+        <usage id="project.open.time.0" value="1" />
+        <usage id="project.closed" value="1" />
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <usage id="Python" value="1" />
+        <usage id="PLAIN_TEXT" value="1" />
+      </usages-collector>
+      <usages-collector id="statistics.run.configuration.start">
+        <usage id="PythonConfigurationType" value="2">
+          <context>
+            <entry key="data_1" value="Run" />
+          </context>
+        </usage>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <usage id="Python" value="4" />
+        <usage id="PLAIN_TEXT" value="1" />
+      </usages-collector>
+    </session>
+  </component>
+</project>

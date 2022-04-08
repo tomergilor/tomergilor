@@ -1,0 +1,5 @@
+# PyCharm failed to generate skeletons for these modules.
+# These skeletons will be re-generated automatically
+# when a newer module version or an updated generator becomes available.
+C:\Python27\lib\site-packages\selenium\webdriver\firefox\x86\x_ignore_nofocus.so = 1.146 1503331038000
+C:\Python27\lib\site-packages\selenium\webdriver\firefox\amd64\x_ignore_nofocus.so = 1.146 1503331038000

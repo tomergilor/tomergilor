@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FUSProjectUsageTrigger">
+    <session id="-276062689">
+      <usages-collector id="statistics.lifecycle.project">
+        <usage id="project.opened" value="1" />
+        <usage id="project.open.time.2" value="1" />
+        <usage id="project.closed" value="1" />
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <usage id="JSON" value="2" />
+        <usage id="Python" value="5" />
+      </usages-collector>
+      <usages-collector id="statistics.terminalShell">
+        <usage id="local.exec" value="1">
+          <context>
+            <entry key="data_1" value="Windows" />
+            <entry key="data_2" value="Windows 7 6.1" />
+            <entry key="data_3" value="cmd" />
+          </context>
+        </usage>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="C:\Users\Tomer\PycharmProjects\eg-py-task-master\" commandHistoryFileName="history-" />
+    </option>
+  </component>
+</project>

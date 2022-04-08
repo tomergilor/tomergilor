@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1197052654">
+      <usages-collector id="statistics.lifecycle.project">
+        <usage id="project.opened" value="3" />
+        <usage id="project.open.time.103" value="1" />
+        <usage id="project.closed" value="3" />
+        <usage id="project.open.time.78" value="1" />
+        <usage id="project.open.time.4" value="1" />
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <usage id="Python" value="2" />
+        <usage id="JSON" value="1" />
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <usage id="Python" value="24" />
+      </usages-collector>
+      <usages-collector id="statistics.terminalShell">
+        <usage id="local.exec" value="1">
+          <context>
+            <entry key="data_1" value="Windows" />
+            <entry key="data_2" value="Windows 7 6.1" />
+            <entry key="data_3" value="cmd" />
+          </context>
+        </usage>
+      </usages-collector>
+      <usages-collector id="statistics.searchEverywhere">
+        <usage id="dialogOpen" value="1">
+          <context>
+            <entry key="data_1" value="SearchEverywhereContributor.All" />
+          </context>
+        </usage>
+      </usages-collector>
+      <usages-collector id="statistics.run.configuration.start">
+        <usage id="PythonConfigurationType" value="5">
+          <context>
+            <entry key="data_1" value="Run" />
+          </context>
+        </usage>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="C:\Users\Tomer\PycharmProjects\Update 100+ Python challenging programming exercises\" commandHistoryFileName="history-1" />
+    </option>
+  </component>
+</project>

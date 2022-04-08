@@ -1,0 +1,47 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6612426" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.74647886" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="OpenOrAttachDialog.OpenMode" value="replace" />
+    <property name="PACKAGE_FILTER" value="venv&#10;selenium" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="PyCharm.initialConfigurationShown" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/PycharmProjects/untitled3/Assert and errors.py&#10;C:/Users/Tomer/PycharmProjects/untitled/Automated tasks and important things.py&#10;C:/Users/Tomer/PycharmProjects/udemy selenium python code&#10;C:/Users/Tomer/PycharmProjects/udemy selenium python code/PythonTutorial/ExceptionHandling&#10;C:/Users/Tomer/.PyCharmCE2018.3/Exeption-try - except.py&#10;C:/Users/Tomer/.PyCharmCE2017.2/Exercises/Exeption-try - except.py&#10;C:/Users/Tomer/.PyCharmCE2017.2/Selenium exercises examples&#10;C:/Users/Tomer/.PyCharmCE2017.2/Exercises/selenium_python_udemy&#10;C:/Users/Tomer/.PyCharmCE2017.2/Exercises/Chagai exercises&#10;C:/Users/Tomer/PycharmProjects/eg-py-task-master&#10;C:/Users/Tomer/.PyCharmCE2017.2&#10;C:/Users/Tomer/.PyCharmCE2018.3&#10;C:/Users/Tomer/PycharmProjects/udemy selenium python code/letskodeit&#10;C:/Users/Tomer/PycharmProjects/udemy selenium python code/SeleniumWD2Tutorial&#10;C:/Users/Tomer/PycharmProjects&#10;C:/Users/Tomer/PycharmProjects/udemy selenium python code/PythonTutorial&#10;C:/Users/Tomer/PycharmProjects/Selenium webdriver with python 3 - udemy&#10;C:/Users/Tomer/.PyCharmCE2017.2/Exercises/code examples/interview questions.py&#10;C:/Users/Tomer/.PyCharmCE2017.2/Exercises/untitled2&#10;C:/Users/Tomer/.PyCharmCE2017.2/Exercises/untitled&#10;C:/Users/Tomer/.PyCharmCE2017.2/Exercises/Selenium&#10;C:/Users/Tomer/.PyCharmCE2017.2/Exercises/Classes and Object oriented.py&#10;C:/Users/Tomer/.PyCharmCE2017.2/Exercises/untitled1&#10;C:/Users/Tomer/.PyCharmCE2017.2/Exercises/untitled1/Test5.py&#10;C:/Users/Tomer/.PyCharmCE2018.1&#10;C:/Users/Tomer/PycharmProjects/functionality&#10;C:/Users/Tomer/PycharmProjects/untitled&#10;C:/Users/Tomer/PycharmProjects/QA&#10;C:/Users/Tomer/PycharmProjects/Python POM&#10;C:/Users/Tomer/PycharmProjects/PythonPOM" />
+    <property name="file.gist.reindex.count" value="29443" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="find.popup.splitter" value="0.47128713" />
+    <property name="lastTip" value="19" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="C:\Python27\python.exe" value="false" />
+        <entry key="C:\Users\Tomer\AppData\Local\Programs\Python\Python37-32\python.exe" value="false" />
+        <entry key="C:\Users\Tomer\PycharmProjects\Update 100+ Python challenging programming exercises\venv\Scripts\python.exe" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="C:\Python27\python.exe" value="false" />
+        <entry key="C:\Users\Tomer\AppData\Local\Programs\Python\Python37-32\python.exe" value="false" />
+        <entry key="C:\Users\Tomer\PycharmProjects\Update 100+ Python challenging programming exercises\venv\Scripts\python.exe" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_TRIALTEST">
+      <map>
+        <entry key="C:\Python27\python.exe" value="false" />
+        <entry key="C:\Users\Tomer\AppData\Local\Programs\Python\Python37-32\python.exe" value="false" />
+        <entry key="C:\Users\Tomer\PycharmProjects\Update 100+ Python challenging programming exercises\venv\Scripts\python.exe" value="false" />
+      </map>
+    </option>
+  </component>
+</application>
